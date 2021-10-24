@@ -1,31 +1,36 @@
 <template>
-  <img
-    alt="Vue logo"
-    src="../assets/logo.svg"
-    width="300"
-  >
-  <app-navigation />
-  <router-view />
+  <router-view id="content" />
 </template>
 
 <script lang="ts">
-import {defineComponent} from 'vue';
-import AppNavigation from '/@/components/AppNavigation.vue';
-export default defineComponent({
-  name: 'App',
-  components: {
-    AppNavigation,
+import { storeService, HOME_PATH } from "/@/utils";
+
+export default {
+  name: "app",
+  created() {
+    //初始化设置本地包路径
+    if (!storeService.getConfig("paths.LocalPackages")) {
+      storeService.setConfig(
+        "paths.LocalPackages",
+        `${HOME_PATH}\\Documents\\TetraProject\\Packages`
+      );
+    }
   },
-});
+};
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+<style scoped>
+/*#root {*/
+/*  display: grid;*/
+/*  height: 100vh;*/
+/*  grid-template-rows: auto 1fr;*/
+/*  background-color: #282c34;*/
+/*}*/
+/*#content {*/
+/*  padding: 15px;*/
+/*  color: #666666;*/
+/*}*/
+#edit .right .el-card__body {
+  padding: 8px;
 }
 </style>

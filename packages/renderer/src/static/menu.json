@@ -1,0 +1,167 @@
+[
+  {
+    "name": "mod",
+    "title": "MOD管理",
+    "icon": "outlet",
+    "children": [{ "name": "baseInfo", "title": "基本信息", "icon": "outlet" }]
+  },
+  {
+    "name": "cards",
+    "title": "卡牌",
+    "icon": "outlet",
+    "children": [
+      {
+        "name": "cardSet",
+        "title": "卡牌组",
+        "icon": "outlet"
+      },
+      {
+        "name": "normal",
+        "title": "普通卡",
+        "icon": "outlet"
+      },
+      {
+        "name": "buff",
+        "title": "BUFF卡",
+        "icon": "outlet"
+      },
+      {
+        "name": "equipment",
+        "title": "装备卡",
+        "icon": "outlet"
+      },
+      {
+        "name": "prop",
+        "title": "道具卡",
+        "icon": "outlet"
+      }
+    ]
+  },
+  {
+    "name": "characters",
+    "title": "单位",
+    "icon": "outlet",
+    "children": [
+      {
+        "name": "charSet",
+        "title": "单位组",
+        "icon": "outlet"
+      },
+      {
+        "name": "roleChars",
+        "title": "角色单位",
+        "icon": "outlet"
+      },
+      {
+        "name": "wordChars",
+        "title": "环境物体",
+        "icon": "outlet"
+      }
+    ]
+  },
+  {
+    "name": "level",
+    "title": "关卡",
+    "icon": "outlet",
+    "children": [
+      {
+        "name": "levelView",
+        "title": "关卡总览",
+        "icon": "outlet"
+      },
+      {
+        "name": "stage",
+        "title": "场景",
+        "icon": "outlet",
+        "children": [
+          { "name": "stageView", "title": "场景总览", "icon": "outlet" },
+          { "name": "mapModle", "title": "场景模型", "icon": "outlet" },
+          { "name": "map", "title": "场景设定图", "icon": "outlet" }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "polt",
+    "title": "剧情",
+    "icon": "outlet",
+    "children": [
+      {
+        "name": "poltSet",
+        "title": "剧本设计",
+        "icon": "outlet"
+      }
+    ]
+  },
+  {
+    "name": "resources",
+    "title": "资源",
+    "icon": "outlet",
+    "children": [
+      {
+        "name": "gameLoadIcon",
+        "title": "游戏加载背景",
+        "icon": "outlet"
+      },
+      {
+        "name": "cardRes",
+        "title": "卡牌资源",
+        "icon": "outlet",
+        "children": [
+          {
+            "name": "cardIcon",
+            "title": "卡牌卡面",
+            "icon": "outlet"
+          },
+          {
+            "name": "cardBackground",
+            "title": "卡牌背景",
+            "icon": "outlet"
+          }
+        ]
+      },
+      {
+        "name": "characterRes",
+        "title": "单位资源",
+        "icon": "outlet",
+        "children": [
+          {
+            "name": "characterModels",
+            "title": "单位模型",
+            "icon": "outlet"
+          },
+          {
+            "name": "characterAvatar",
+            "title": "角色头像",
+            "icon": "outlet"
+          },
+          {
+            "name": "characterImage",
+            "title": "角色对话画像",
+            "icon": "outlet"
+          }
+        ]
+      },
+      {
+        "name": "maps",
+        "title": "地图",
+        "icon": "outlet"
+      },
+      {
+        "name": "effect",
+        "title": "特效",
+        "icon": "outlet"
+      },
+      {
+        "name": "music",
+        "title": "背景音乐",
+        "icon": "outlet"
+      },
+      {
+        "name": "sound",
+        "title": "音效",
+        "icon": "outlet"
+      }
+    ]
+  }
+]
