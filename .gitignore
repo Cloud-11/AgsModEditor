@@ -1,6 +1,6 @@
 node_modules
 .idea
-.vscde
+.vscode
 .DS_Store
 dist
 *.local
